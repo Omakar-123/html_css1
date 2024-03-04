@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    <style>
+        body{
+            background: linear-gradient(45deg, rgb(255, 0, 102), rgb(230, 0, 255));
+            background-position: center;
+            
+            background-size: cover;
+            height: 700px;
+
+        }
+        .container
+        {
+            width: 800px;
+            height: 600px;
+            border: 1px solid #000;
+            margin-left: 330px;
+            margin-top: 70px;
+            border-radius: 20px;
+            display: flex;
+            background-color: aliceblue;
+        }
+        .image img
+        {
+            width: 400px;
+            height:600px;
+            border-radius: 20px;
+        }
+        h1
+        {
+         margin-left: 100px;
+         margin-top: 50px;
+        }
+        .main input
+        {
+             padding: 15px;
+             width: 260px;
+             margin-top: 30px;
+             margin-left: 50px;
+             border-radius: 30px;
+        }
+        .sub input
+        {
+            width: 290px;
+            background-color: rgb(9, 241, 9);
+        }
+        .last h3
+        {
+            margin-left: 70px;
+            margin-top: 30px;
+        }
+        a
+        {
+            color: rgb(92, 149, 6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="/images/girl.jpg" alt="">
+        </div>
+        <div class="form">
+             <h1>Member Login</h1>
+            <div class="main">
+                <div class="email">
+                   
+                    <input   type="email"  placeholder="Email">
+                </div>
+                   <div class="pass">
+                    <input type="password" placeholder="password">
+                   </div>
+                   <div class="sub">
+                    <input type="submit" value="LOGIN">
+                   </div>
+            </div>
+             <div class="last">
+                <h3>Forget&nbsp&nbsp;<a>Username/password?</a>
+                </h3>
+             </div>
+            
+        </div>
+    </div>
+</body>
+</html>
